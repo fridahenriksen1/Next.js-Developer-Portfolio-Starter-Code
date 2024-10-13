@@ -4,9 +4,9 @@ import Logo from "./Logo";
 
 const CustomLink = ({ href, title, className = "" }) => {
   return (
-    <Link href={href} className={`${className} relative`}>
+    <Link href={href} className={`${className} relative group`}>
       {title}
-      <span className="h-[1px] inline-block w-full bg-dark absolute left-0 -bottom-0.5">
+      <span className="h-[1px] inline-block w-0 bg-dark absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300">
         &nbsp;
       </span>
     </Link>
