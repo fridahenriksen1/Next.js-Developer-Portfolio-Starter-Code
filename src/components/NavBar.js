@@ -10,6 +10,7 @@ import {
   PinterestIcon,
   InstagramIcon,
 } from "./Icons";
+import { motion } from "framer-motion";
 
 const CustomLink = ({ href, title, className = "" }) => {
   const router = useRouter();
@@ -39,24 +40,51 @@ const NavBar = () => {
       </nav>
 
       <nav className="flex items-center justify-center flex-wrap">
-        <a href="https://github.com/fridahenriksen1" target={"_blank"}>
+        <motion.a
+          href="https://github.com/fridahenriksen1"
+          target={"_blank"}
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.9 }}
+          className="w-6 mr-3"
+        >
           <GithubIcon />
-        </a>
-        <a
+        </motion.a>
+        <motion.a
           href="https://www.linkedin.com/in/frida-henriksen/"
           target={"_blank"}
+          className="w-6 mr-3"
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.9 }}
         >
           <LinkedInIcon />
-        </a>
-        <a href="/" target={"_blank"}>
+        </motion.a>
+        <motion.a
+          href="https://www.instagram.com/frida_portfolio/"
+          target={"_blank"}
+          className="w-6 mr-3"
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.9 }}
+        >
           <InstagramIcon />
-        </a>
-        <a href="/" target={"_blank"}>
+        </motion.a>
+        <motion.a
+          href="/"
+          target={"_blank"}
+          className="w-6 mr-3"
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.9 }}
+        >
           <PinterestIcon />
-        </a>
-        <a href="/" target={"_blank"}>
+        </motion.a>
+        <motion.a
+          href="/"
+          target={"_blank"}
+          className="w-6 mr-3"
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.9 }}
+        >
           <DribbbleIcon />
-        </a>
+        </motion.a>
       </nav>
       <div className="absolute left-[50%] top-2 translate-x-[-50%]">
         <Logo />
