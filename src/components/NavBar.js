@@ -8,6 +8,7 @@ import {
   GithubIcon,
   LinkedInIcon,
   PinterestIcon,
+  InstagramIcon,
 } from "./Icons";
 
 const CustomLink = ({ href, title, className = "" }) => {
@@ -37,22 +38,22 @@ const NavBar = () => {
         <CustomLink href="/articles" title="Articles" className="ml-4" />
       </nav>
 
-      <nav>
-        <Link href="/" target={"_blank"}>
-          <TwitterIcon />
-        </Link>
-        <Link href="/" target={"_blank"}>
+      <nav className="flex items-center justify-center flex-wrap">
+        <a href="https://github.com/fridahenriksen1" target={"_blank"}>
           <GithubIcon />
-        </Link>
-        <Link href="/" target={"_blank"}>
+        </a>
+        <a href="/" target={"_blank"}>
           <LinkedInIcon />
-        </Link>
-        <Link href="/" target={"_blank"}>
+        </a>
+        <a href="/" target={"_blank"}>
+          <InstagramIcon />
+        </a>
+        <a href="/" target={"_blank"}>
           <PinterestIcon />
-        </Link>
-        <Link href="/" target={"_blank"}>
+        </a>
+        <a href="/" target={"_blank"}>
           <DribbbleIcon />
-        </Link>
+        </a>
       </nav>
       <div className="absolute left-[50%] top-2 translate-x-[-50%]">
         <Logo />
