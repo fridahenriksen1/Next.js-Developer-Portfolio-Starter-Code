@@ -42,7 +42,10 @@ const NavBar = () => {
         <a href="https://github.com/fridahenriksen1" target={"_blank"}>
           <GithubIcon />
         </a>
-        <a href="/" target={"_blank"}>
+        <a
+          href="https://www.linkedin.com/in/frida-henriksen/"
+          target={"_blank"}
+        >
           <LinkedInIcon />
         </a>
         <a href="/" target={"_blank"}>
