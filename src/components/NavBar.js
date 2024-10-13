@@ -2,7 +2,13 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
 import Logo from "./Logo";
-import TwitterIcon from "./Icons";
+import {
+  TwitterIcon,
+  DribbbleIcon,
+  GithubIcon,
+  LinkedInIcon,
+  PinterestIcon,
+} from "./Icons";
 
 const CustomLink = ({ href, title, className = "" }) => {
   const router = useRouter();
@@ -36,19 +42,16 @@ const NavBar = () => {
           <TwitterIcon />
         </Link>
         <Link href="/" target={"_blank"}>
-          T
+          <GithubIcon />
         </Link>
         <Link href="/" target={"_blank"}>
-          T
+          <LinkedInIcon />
         </Link>
         <Link href="/" target={"_blank"}>
-          T
+          <PinterestIcon />
         </Link>
         <Link href="/" target={"_blank"}>
-          T
-        </Link>
-        <Link href="/" target={"_blank"}>
-          T
+          <DribbbleIcon />
         </Link>
       </nav>
       <div className="absolute left-[50%] top-2 translate-x-[-50%]">
