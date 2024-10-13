@@ -52,7 +52,7 @@ const NavBar = () => {
         <motion.a
           href="https://www.linkedin.com/in/frida-henriksen/"
           target={"_blank"}
-          className="w-6 mr-3"
+          className="w-6 mx-3"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
         >
@@ -61,7 +61,7 @@ const NavBar = () => {
         <motion.a
           href="https://www.instagram.com/frida_portfolio/"
           target={"_blank"}
-          className="w-6 mr-3"
+          className="w-6 mx-3"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
         >
@@ -70,7 +70,7 @@ const NavBar = () => {
         <motion.a
           href="/"
           target={"_blank"}
-          className="w-6 mr-3"
+          className="w-6 mx-3"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
         >
@@ -79,7 +79,7 @@ const NavBar = () => {
         <motion.a
           href="/"
           target={"_blank"}
-          className="w-6 mr-3"
+          className="w-6 ml-3"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
         >
