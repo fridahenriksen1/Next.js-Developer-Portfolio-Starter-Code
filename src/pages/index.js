@@ -23,7 +23,7 @@ export default function Home() {
               <Image
                 src={profilePic}
                 alt="CodeBucks"
-                className="w-full h-auto border-solid border-2 border-pink-100 hover:border-dotted  rounded-full transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110"
+                className="w-full h-auto border-solid border-2 border-purple-100 hover:border-dotted  rounded-full transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110"
               ></Image>
             </div>
           </div>
