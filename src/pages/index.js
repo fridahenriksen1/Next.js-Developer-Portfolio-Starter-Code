@@ -17,7 +17,7 @@ export default function Home() {
               <Image
                 src={profilePic}
                 alt="CodeBucks"
-                className="w-full h-auto"
+                className="w-full h-auto scale-x-[-1]"
               ></Image>
             </div>
           </div>
