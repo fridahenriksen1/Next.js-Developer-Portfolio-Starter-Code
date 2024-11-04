@@ -1,6 +1,13 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
+
+
+// import profilePic from "../../public/images/profile/profile-pic-5.png";
+// import profilePic from "../../public/images/profile/profile-pic4.png";
+// import profilePic from "../../public/images/profile/profile-picTwo.png";
+// import profilePic from "../../public/images/profile/profile-pic-3.png";
+// import profilePic from "../../public/images/profile/profile-pic-3-round.png";
 import profilePic from "../../public/images/profile/developer-pic-profile.png";
 
 export default function Home() {
@@ -17,7 +24,7 @@ export default function Home() {
               <Image
                 src={profilePic}
                 alt="CodeBucks"
-                className="w-full h-auto scale-x-[-1]"
+                className="w-full h-auto"
               ></Image>
             </div>
           </div>
