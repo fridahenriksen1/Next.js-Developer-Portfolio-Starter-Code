@@ -6,8 +6,10 @@ import Image from "next/image";
 // import profilePic from "../../public/images/profile/profile-pic4.png";
 // import profilePic from "../../public/images/profile/profile-picTwo.png";
 // import profilePic from "../../public/images/profile/profile-pic-3.png";
-import profilePic from "../../public/images/profile/profile-pic-3-round.png";
-// import profilePic from "../../public/images/profile/developer-pic-profile.png";
+
+import AnimatedText from "@/components/AnimatedText";
+import profilePic from "../../public/images/profile/developer-pic-profile.png";
+// import profilePic from "../../public/images/profile/profile-pic-3-round.png";
 
 export default function Home() {
   return (
@@ -23,8 +25,20 @@ export default function Home() {
               <Image
                 src={profilePic}
                 alt="CodeBucks"
-                className="w-full h-auto border-solid border-2 border-purple-100 hover:border-dotted  rounded-full transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110"
+                className="w-full h-auto border-solid border-2 border-white hover:border-dotted  rounded-full transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110"
               ></Image>
+            </div>
+            <div className="w-1/2 flex-col items-center self-center">
+              <AnimatedText
+                text="Turning Vision Into Reality With Code And Design."
+                className="!text-6xl !text-left"
+              ></AnimatedText>
+              <p>
+                As a skilled full-stack developer, I am dedicated to turning
+                ideas into innovative web applications. Explore my latest
+                projects and articles, showcasing my expertise in React.js and
+                web development.
+              </p>
             </div>
           </div>
         </Layout>
