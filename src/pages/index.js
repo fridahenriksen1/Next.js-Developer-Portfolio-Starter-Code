@@ -11,6 +11,7 @@ import AnimatedText from "@/components/AnimatedText";
 import profilePic from "../../public/images/profile/developer-pic-profile.png";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
+import HireMe from "@/components/HireMe";
 // import profilePic from "../../public/images/profile/profile-pic-3-round.png";
 
 export default function Home() {
@@ -61,6 +62,7 @@ export default function Home() {
             </div>
           </div>
         </Layout>
+        <HireMe></HireMe>
       </main>
     </>
   );
