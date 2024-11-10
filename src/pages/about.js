@@ -58,15 +58,21 @@ const about = () => {
             <div className="col-span-2 flex flex-col items-end justify-between">
               <div className="flex flex-col items-end justify-center">
                 <span className="inline-block text-7xl font-bold">10+</span>
-                <h2>projects completed</h2>
+                <h2 className="text-xl font-medium capitalize text-dark/75">
+                  projects completed
+                </h2>
               </div>
               <div className="flex flex-col items-end justify-center">
                 <span className="inline-block text-7xl font-bold">5+</span>
-                <h2>design tools mastered</h2>
+                <h2 className="text-xl font-medium capitalize text-dark/75">
+                  design tools mastered
+                </h2>
               </div>
               <div className="flex flex-col items-end justify-center">
                 <span className="inline-block text-7xl font-bold">2+</span>
-                <h2>years of exeperience</h2>
+                <h2 className="text-xl font-medium capitalize text-dark/75">
+                  years of exeperience
+                </h2>
               </div>
             </div>
           </div>
