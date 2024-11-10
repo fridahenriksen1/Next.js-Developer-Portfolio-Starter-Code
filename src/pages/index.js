@@ -31,7 +31,7 @@ export default function Home() {
               <Image
                 src={profilePic}
                 alt="CodeBucks"
-                className="w-full h-auto border-solid border-2 border-white hover:border-dotted  rounded-full "
+                className="w-full h-auto border-solid border-2 border-white hover:border-dotted hover:border-pink-100 rounded-full "
               ></Image>
             </motion.div>
             <div className="w-1/2 flex-col items-center self-center">
