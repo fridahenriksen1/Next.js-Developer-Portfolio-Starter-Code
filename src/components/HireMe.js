@@ -10,7 +10,7 @@ const HireMe = () => {
 
         <Link
           href="mailto:fridahenriksen1@gmail.com"
-          className="flex items-center justify-center absolute bg-dark text-light shadow-md border border-solid border-dark w-20 h-20 rounded-full"
+          className="flex items-center justify-center absolute bg-dark text-light shadow-md border border-solid border-dark w-20 h-20 rounded-full font-semibold hover:bg-light hover:text-dark"
         >
           Hire me
         </Link>
