@@ -5,10 +5,10 @@ import Image from "next/image";
 // import profilePic from "../../public/images/profile/profile-pic-5.png";
 // import profilePic from "../../public/images/profile/profile-pic4.png";
 // import profilePic from "../../public/images/profile/profile-picTwo.png";
-// import profilePic from "../../public/images/profile/profile-pic-3.png";
+import profilePic from "../../public/images/profile/profile-pic-3.png";
 
 import AnimatedText from "@/components/AnimatedText";
-import profilePic from "../../public/images/profile/developer-pic-profile.png";
+// import profilePic from "../../public/images/profile/developer-pic-profile.png";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
 import HireMe from "@/components/HireMe";
