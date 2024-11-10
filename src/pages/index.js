@@ -12,6 +12,8 @@ import profilePic from "../../public/images/profile/developer-pic-profile.png";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
 import HireMe from "@/components/HireMe";
+//* lightbulb picture
+import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
 // import profilePic from "../../public/images/profile/profile-pic-3-round.png";
 
 export default function Home() {
@@ -63,6 +65,9 @@ export default function Home() {
           </div>
         </Layout>
         <HireMe></HireMe>
+        <div className="absolute right-8 bottom-8 inline-block w-24">
+          <Image src={lightBulb} alt="Codebucks" className="w-full h-auto" />
+        </div>
       </main>
     </>
   );
