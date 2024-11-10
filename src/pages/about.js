@@ -28,10 +28,10 @@ const about = () => {
                 Hi, I'm Frida Henriksen, a web developer and UI/UX designer with
                 a passion for creating beautiful, functional, and user-centered
                 digital experiences. I'm a newly graduated digital designer from
-                Brobygrafiska, where I specialized in UX/UI design. I completed
-                my studies in May and am now furthering my expertise by studying
-                frontend development at IT-Högskolan, expanding my technical
-                skills to bring designs to life.
+                Brobygrafiska, where I specialized in UX/UI design and frontend
+                development. I completed my studies in May and am now furthering
+                my expertise by studying frontend development at IT-Högskolan,
+                expanding my technical skills to bring designs to life.
               </p>
               <p className="my-4 font-medium">
                 I believe that design is about more than just making things look
@@ -54,6 +54,20 @@ const about = () => {
                 alt="A picture of Frida Henriksen"
                 className="w-full h-auto rounded-2xl"
               ></Image>
+            </div>
+            <div className="col-span-2 flex flex-col items-end justify-between">
+              <div className="flex flex-col items-end justify-center">
+                <span className="inline-block text-7xl font-bold">10+</span>
+                <h2>projects completed</h2>
+              </div>
+              <div className="flex flex-col items-end justify-center">
+                <span className="inline-block text-7xl font-bold">5+</span>
+                <h2>design tools mastered</h2>
+              </div>
+              <div className="flex flex-col items-end justify-center">
+                <span className="inline-block text-7xl font-bold">2+</span>
+                <h2>years of exeperience</h2>
+              </div>
             </div>
           </div>
         </Layout>
