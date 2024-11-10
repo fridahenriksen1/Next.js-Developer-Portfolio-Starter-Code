@@ -1,6 +1,7 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 // import profilePic from "../../public/images/profile/profile-pic-5.png";
 // import profilePic from "../../public/images/profile/profile-pic4.png";
@@ -26,13 +27,13 @@ export default function Home() {
       <main className="flex items-center text-dark w-full min-h-screen">
         <Layout className="pt-0">
           <div className="flex items-center justify-between w-full">
-            <div className="w-2/5 ml-12">
+            <motion.div className="w-2/5 ml-12" whileHover={{ scale: 1.05 }}>
               <Image
                 src={profilePic}
                 alt="CodeBucks"
-                className="w-full h-auto border-solid border-2 border-white hover:border-dotted  rounded-full transition ease-in-out delay-150 duration-300 hover:-translate-y-1 hover:scale-110"
+                className="w-full h-auto border-solid border-2 border-white hover:border-dotted  rounded-full "
               ></Image>
-            </div>
+            </motion.div>
             <div className="w-1/2 flex-col items-center self-center">
               <AnimatedText
                 text="Turning Vision Into Reality With Code And Design."
