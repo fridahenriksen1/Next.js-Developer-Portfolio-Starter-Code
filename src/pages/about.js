@@ -1,7 +1,10 @@
 import AnimatedText from "@/components/AnimatedText";
 import Layout from "@/components/Layout";
 import Head from "next/head";
+import Image from "next/image";
 import React from "react";
+import profilePic from "../../public/images/profile/developer-profile-pic.jpg";
+// import profilePic from "../../public/images/profile/developer-profile-pic2.jpg";
 
 const about = () => {
   return (
@@ -15,7 +18,7 @@ const about = () => {
       </Head>
       <main className="flex w-full flex-col items-center justify-center">
         <Layout className="pt-16">
-          <AnimatedText text="Passion Fuels Purpose!" />
+          <AnimatedText text="Passion Fuels Purpose!" className="mb-16" />
           <div className="grid w-full grid-cols-8 gap-16">
             <div className="col-span-3 flex flex-col items-start justify-start">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75">
@@ -42,6 +45,15 @@ const about = () => {
                 forward to the opportunity to bring my skills and passion to
                 your next project.
               </p>
+            </div>
+
+            <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8">
+              <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark" />
+              <Image
+                src={profilePic}
+                alt="A picture of Frida Henriksen"
+                className="w-full h-auto rounded-2xl"
+              ></Image>
             </div>
           </div>
         </Layout>
