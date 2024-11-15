@@ -36,7 +36,7 @@ const Experience = () => {
             companyLink="https://grassfish.com/"
             time="01.2024-04.2024"
             city="Varberg, Halland"
-            work="   -"
+            work="Digital Designer (Internship) at Grassfish, where I collaborated with HR, marketing, and Johan, CTO at Vertiseit, to create a digital culture handbook following Vertiseit’s graphic profile. I also redesigned demo templates for the Dise program, which were used at an event in Barcelona. I conducted UX research for a Max restaurant, highlighting a specific product, and designed tax-free templates for Birka Gotland cruise ships in Figma, aligning with their brand and requirements. I assisted with migration tasks and led a redesign of a music control interface for Efterklang's service. Additionally, I developed a presentation showcasing Grassfish's key USPs for the sales team at a Miami event for cruise ships, and created sketch proposals for a touchscreen solution for spare parts ordering at Mekonomen and Autoexperten stores."
           />
               <Details
             position="Lifeguard and Café Attendant"
