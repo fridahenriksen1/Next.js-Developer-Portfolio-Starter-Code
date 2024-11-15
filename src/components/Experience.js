@@ -98,7 +98,7 @@ const Experience = () => {
           <Details
             position="Cashier"
             company="Gekås Ullared"
-            companyLink="https://www.queenstownnz.co.nz/listing/la-perle-nz-pearl-trading-co/1435/"
+            companyLink="https://www.gekas.se/"
             time="01.2020-02.2020"
             city="Queenstown, New Zealand"
             work="Cashier at Gekås Ullared, responsible for handling transactions efficiently and providing excellent customer service. Assisted on the shop floor as needed, including helping customers locate products and maintaining a tidy shopping environment."
