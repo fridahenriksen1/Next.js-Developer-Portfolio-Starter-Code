@@ -52,7 +52,7 @@ const Experience = () => {
             companyLink="https://www.kazoku.se/"
             time="04.2023-06.2023"
             city="Karlstad, Värmland"
-            work="  -"
+            work="Front End Developer (Internship) at Kazoku IT, where I collaborated with a classmate to design a dashboard for tracking office and remote work schedules, as well as upcoming events. During the coding phase, another colleague from Kazoku joined the project. We worked closely with the entire office team, having regular meetings and receiving valuable input and support from everyone. The development was done using Visual Studio and Blazor, following Scrum methodology. We worked in sprints, participated in reviews and retrospectives, and continuously improved our tasks to meet project goals."
           />
 
           <Details
