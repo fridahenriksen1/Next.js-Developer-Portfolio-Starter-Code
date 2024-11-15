@@ -44,7 +44,7 @@ const Experience = () => {
             companyLink="https://www.medley.se/"
             time="07.2023-08.2023"
             city="Varberg, Halland"
-            work="   -"
+            work=" Lifeguard and Café Attendant (Summer Job) at Medley, where I worked as a lifeguard at two swimming facilities in Varberg—one larger indoor complex with multiple pools and one smaller outdoor facility. I worked in a team to ensure safety in the water and also assisted at the café and check-in areas, serving customers and providing excellent service. My role required collaboration, attentiveness, and the ability to manage both safety and hospitality responsibilities effectively."
           />
           <Details
             position="Front End Developer (Internship)"
