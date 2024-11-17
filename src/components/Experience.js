@@ -3,9 +3,13 @@ import { motion, useScroll } from "framer-motion";
 import Liicon from "./Liicon";
 
 const Details = ({ position, company, companyLink, time, city, work }) => {
+  const ref = useRef(null);
   return (
-    <li className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between">
-      <Liicon />
+    <li
+      ref={ref}
+      className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between"
+    >
+      <Liicon reference={ref} />
       <div>
         <h3 className="capitalize font-bold text-2xl">
           {position}&nbsp;{" "}
@@ -43,7 +47,7 @@ const Experience = () => {
         {/* Motion Div som reagerar på scroll */}
         <motion.div
           style={{ scaleY: scrollYProgress }} // Animera skalan baserat på scrollYProgress
-          className="absolute left-8 top-0 w-[4px] h-full bg-dark origin-top mt-20"
+          className="absolute left-8 top-0 w-[4px] h-full bg-dark origin-top mt-2"
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4">
           <Details
