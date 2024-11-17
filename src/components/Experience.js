@@ -30,6 +30,7 @@ const Experience = () => {
       </h2>
       <div className="w-[75%] mx-auto relative">
         <ul className="w-full flex flex-col items-start justify-between ml-4">
+          <div className="absolute left-8 top-0 w-[4px] h-full bg-dark origin-top" />
           <Details
             position="Digital Designer (internship)"
             company="Grassfish"
@@ -38,7 +39,7 @@ const Experience = () => {
             city="Varberg, Halland"
             work="Digital Designer (Internship) at Grassfish, where I collaborated with HR, marketing, and Johan, CTO at Vertiseit, to create a digital culture handbook following Vertiseit’s graphic profile. I also redesigned demo templates for the Dise program, which were used at an event in Barcelona. I conducted UX research for a Max restaurant, highlighting a specific product, and designed tax-free templates for Birka Gotland cruise ships in Figma, aligning with their brand and requirements. I assisted with migration tasks and led a redesign of a music control interface for Efterklang's service. Additionally, I developed a presentation showcasing Grassfish's key USPs for the sales team at a Miami event for cruise ships, and created sketch proposals for a touchscreen solution for spare parts ordering at Mekonomen and Autoexperten stores."
           />
-              <Details
+          <Details
             position="Lifeguard and Café Attendant"
             company="Medley"
             companyLink="https://www.medley.se/"
@@ -109,7 +110,7 @@ const Experience = () => {
             companyLink="https://"
             time="03.2015-10.2015 | 06.2016-10.2016"
             city="Varberg, halland"
-             work="Blackjack Dealer responsible for managing and dealing blackjack games in a professional and engaging manner, ensuring adherence to gaming regulations and providing excellent customer service to players."
+            work="Blackjack Dealer responsible for managing and dealing blackjack games in a professional and engaging manner, ensuring adherence to gaming regulations and providing excellent customer service to players."
           />
         </ul>
       </div>
