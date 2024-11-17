@@ -55,10 +55,10 @@ const Education = () => {
             info="During the program, I gained knowledge in visual communication, usability, and web development. This included creating user-friendly designs, implementing web technologies, and developing responsive websites. The curriculum also focused on understanding user needs and designing intuitive interfaces to enhance the overall user experience."
           />
           <Details
-            type="Higher Vocational Education in Front-End Development"
-            time="2024-2026"
-            place="Gothenburg, Västra Götaland"
-            info="During my education, I have gained experience in developing user-friendly web applications with a focus on JavaScript, CSS, and frameworks such as React and Vue.js. The program has also provided me with insights into backend development and agile work using Scrum, enabling me to create responsive and intuitive solutions."
+            type="Higher Vocational Education in Web Development .NET"
+            time="2021-2022"
+            place="EC Utbildning, Halmstad"
+            info="I completed a one-semester higher vocational education in Web Development with a focus on .NET. During the program, I learned to work with technologies such as C#, SQL, and Entity Framework to build and maintain web applications."
           />
           <Details
             type="Higher Vocational Education in Front-End Development"
