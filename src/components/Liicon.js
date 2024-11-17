@@ -4,7 +4,7 @@ import { motion, useScroll } from "framer-motion";
 const Liicon = (reference) => {
   const { scrollYProgress } = useScroll({
     target: reference, // Target är vår referens
-    offset: ["start center", "end center"], // Offset för att styra animationen
+    offset: ["center end", "end end"], // Offset för att styra animationen
   });
   return (
     <figure className="absolute left-0 stroke-dark">
@@ -20,6 +20,9 @@ const Liicon = (reference) => {
           cy="50"
           r="20"
           className=" stroke-[5px] fill-light"
+          style={{
+            pathLength: scrollYProgress,
+          }}
         />
         <circle cx="75" cy="50" r="10" className=" stroke-1 fill-primary" />
       </svg>
