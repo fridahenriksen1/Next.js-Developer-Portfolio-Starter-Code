@@ -10,7 +10,11 @@ const Details = ({ position, company, companyLink, time, city, work }) => {
       className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between"
     >
       <Liicon reference={ref} />
-      <div>
+      <motion.div //This does the details animates like the content is pushing up
+        initial={{ y: 50 }}
+        whileInView={{ y: 0 }}
+        transition={{ duration: 0.5, type: "spring" }}
+      >
         <h3 className="capitalize font-bold text-2xl">
           {position}&nbsp;{" "}
           <a
@@ -26,7 +30,7 @@ const Details = ({ position, company, companyLink, time, city, work }) => {
           {time} | {city}
         </span>
         <p className="font-medium w-full">{work}</p>
-      </div>
+      </motion.div>
     </li>
   );
 };
