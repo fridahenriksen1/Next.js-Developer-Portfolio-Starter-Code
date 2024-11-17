@@ -61,8 +61,8 @@ const Education = () => {
             info="I completed a one-semester higher vocational education in Web Development with a focus on .NET. During the program, I learned to work with technologies such as C#, SQL, and Entity Framework to build and maintain web applications."
           />
           <Details
-            type="Higher Vocational Education in Front-End Development"
-            time="2024-2026"
+            type="Higher Secondary Education in Child and Recreation Studies"
+            time="2011-2014"
             place="Gothenburg, Västra Götaland"
             info="During my education, I have gained experience in developing user-friendly web applications with a focus on JavaScript, CSS, and frameworks such as React and Vue.js. The program has also provided me with insights into backend development and agile work using Scrum, enabling me to create responsive and intuitive solutions."
           />
