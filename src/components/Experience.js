@@ -1,9 +1,11 @@
 import React, { useRef } from "react";
 import { motion, useScroll } from "framer-motion";
+import Liicon from "./Liicon";
 
 const Details = ({ position, company, companyLink, time, city, work }) => {
   return (
     <li className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between">
+      <Liicon />
       <div>
         <h3 className="capitalize font-bold text-2xl">
           {position}&nbsp;{" "}
@@ -29,7 +31,7 @@ const Experience = () => {
   const ref = useRef(null); // Skapa referens för scroll-taget
   const { scrollYProgress } = useScroll({
     target: ref, // Target är vår referens
-    offset: ["start end", "center start"], // Offset för att styra animationen
+    offset: ["start center", "end center"], // Offset för att styra animationen
   });
 
   return (
@@ -41,7 +43,7 @@ const Experience = () => {
         {/* Motion Div som reagerar på scroll */}
         <motion.div
           style={{ scaleY: scrollYProgress }} // Animera skalan baserat på scrollYProgress
-          className="absolute left-8 top-0 w-[4px] h-full bg-dark origin-top"
+          className="absolute left-8 top-0 w-[4px] h-full bg-dark origin-top mt-20"
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4">
           <Details
@@ -68,6 +70,63 @@ const Experience = () => {
             city="Karlstad, Värmland"
             work="Front End Developer (Internship) at Kazoku IT, where I collaborated with a classmate to design a dashboard for tracking office and remote work schedules, as well as upcoming events. During the coding phase, another colleague from Kazoku joined the project. We worked closely with the entire office team, having regular meetings and receiving valuable input and support from everyone. The development was done using Visual Studio and Blazor, following Scrum methodology. We worked in sprints, participated in reviews and retrospectives, and continuously improved our tasks to meet project goals."
           />
+          <Details
+            position="Sales assistant"
+            company="Guldfynd"
+            companyLink="https://www.guldfynd.se/?utm_source=google&utm_medium=cpc&utm_campaign=DD%20%7C%20SE%20%7C%20S%20%7C%20Brand&gad_source=1&gclid=Cj0KCQiA_9u5BhCUARIsABbMSPtjOI5uKCJbSuZmzbFOJ9rhr9U1ihmWaguZOnymLmFv9Or1huCpPMoaApQrEALw_wcB"
+            time="05.2022-07.2022"
+            city="Varberg, Halland"
+            work="Sales Associate at Guldfynd, specializing in assisting customers with jewelry selection and providing personalized service. Responsible for maintaining an organized store environment, ensuring appealing product displays, and supporting customers with inquiries. Managed sales transactions, offered guidance on product care and quality, and handled jewelry sent to the workshop for repairs or customization."
+          />
+          <Details
+            position="Cashier"
+            company="Ica Hajen Lågpris"
+            companyLink="https://www.ica.se/butiker/kvantum/varberg/ica-hajen-lagpris-1003542/?gad_source=1&gclid=Cj0KCQiA_9u5BhCUARIsABbMSPsl-uhKh8NOn58ce5C_vUPziATF6-cGp5CPbX7luZLI-s103eALcd8aAs3LEALw_wcB"
+            time="03.2017-06.2022"
+            city="Varberg, Halland"
+            work="Cashier at ICA Hajen Lågpris, primarily assisting customers at the register and self-checkout, ensuring smooth transactions and excellent service. Also worked across various departments, including grocery, dairy, bakery, and online orders, supporting customers and maintaining stocked shelves. Additional responsibilities included managing the bulk candy section, ensuring hygiene standards, restocking, and placing orders."
+          />
+          <Details
+            position="Front of House"
+            company="Sal's Authentic New York Pizza"
+            companyLink="https://www.sals.co.nz/"
+            time="02.2020-03.2020"
+            city="Queenstown, New Zealand"
+            work="Front of House at Sal's Authentic New York Pizza, responsible for taking customer orders, serving food, and ensuring an exceptional dining experience. Duties included managing dine-in and takeout orders, maintaining a clean and welcoming environment, and delivering friendly, attentive service."
+          />
+          <Details
+            position="Pearl Sales Associate"
+            company="La Perle"
+            companyLink="https://www.queenstownnz.co.nz/listing/la-perle-nz-pearl-trading-co/1435/"
+            time="01.2020-02.2020"
+            city="Queenstown, New Zealand"
+            work="Sales Associate specializing in pearl jewelry, assisting customers with the selection and care of pearl collections, and ensuring an exceptional shopping experience."
+          />
+          <Details
+            position="Cook (Fast Food)"
+            company="McDonald's"
+            companyLink="https://www.mcdonalds.com/se/sv-se.html"
+            time="01.2017-03.2017"
+            city="Queenstown, New Zealand"
+            work="Kitchen Crew Member at McDonald's, primarily responsible for preparing hamburgers and other menu items in a fast-paced environment. Ensured food quality, adhered to hygiene standards, and supported the team with maintaining an efficient workflow."
+          />
+          <Details
+            position="Cashier"
+            company="Gekås Ullared"
+            companyLink="https://www.gekas.se/"
+            time="01.2020-02.2020"
+            city="Queenstown, New Zealand"
+            work="Cashier at Gekås Ullared, responsible for handling transactions efficiently and providing excellent customer service. Assisted on the shop floor as needed, including helping customers locate products and maintaining a tidy shopping environment."
+          />
+          <Details
+            position="Croupier"
+            company="Cherry Casino"
+            companyLink="https://"
+            time="03.2015-10.2015 | 06.2016-10.2016"
+            city="Varberg, halland"
+            work="Blackjack Dealer responsible for managing and dealing blackjack games in a professional and engaging manner, ensuring adherence to gaming regulations and providing excellent customer service to players."
+          />
+
           {/* Lägg till fler Details-komponenter här om behövs */}
         </ul>
       </div>
