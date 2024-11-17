@@ -40,6 +40,7 @@ const Experience = () => {
   const { scrollYProgress } = useScroll({
     target: ref, // Target är vår referens
     offset: ["start center", "end center"], // Offset för att styra animationen
+    // offset: ["start end", "center start"], // Offset för att styra animationen
   });
 
   return (

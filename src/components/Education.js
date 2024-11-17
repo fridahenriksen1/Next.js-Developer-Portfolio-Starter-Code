@@ -48,6 +48,24 @@ const Education = () => {
             place="Gothenburg, Västra Götaland"
             info="During my education, I have gained experience in developing user-friendly web applications with a focus on JavaScript, CSS, and frameworks such as React and Vue.js. The program has also provided me with insights into backend development and agile work using Scrum, enabling me to create responsive and intuitive solutions."
           />
+          <Details
+            type="Higher Vocational Education in Front-End Development"
+            time="2024-2026"
+            place="Gothenburg, Västra Götaland"
+            info="During my education, I have gained experience in developing user-friendly web applications with a focus on JavaScript, CSS, and frameworks such as React and Vue.js. The program has also provided me with insights into backend development and agile work using Scrum, enabling me to create responsive and intuitive solutions."
+          />
+          <Details
+            type="Higher Vocational Education in Front-End Development"
+            time="2024-2026"
+            place="Gothenburg, Västra Götaland"
+            info="During my education, I have gained experience in developing user-friendly web applications with a focus on JavaScript, CSS, and frameworks such as React and Vue.js. The program has also provided me with insights into backend development and agile work using Scrum, enabling me to create responsive and intuitive solutions."
+          />
+          <Details
+            type="Higher Vocational Education in Front-End Development"
+            time="2024-2026"
+            place="Gothenburg, Västra Götaland"
+            info="During my education, I have gained experience in developing user-friendly web applications with a focus on JavaScript, CSS, and frameworks such as React and Vue.js. The program has also provided me with insights into backend development and agile work using Scrum, enabling me to create responsive and intuitive solutions."
+          />
         </ul>
       </div>
     </div>
