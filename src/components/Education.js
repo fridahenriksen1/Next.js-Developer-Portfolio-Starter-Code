@@ -45,14 +45,14 @@ const Education = () => {
           <Details
             type="Higher Vocational Education in Front-End Development"
             time="2024-2026"
-            place="Gothenburg, Västra Götaland"
+            place="IT-Högskolan, Gothenburg"
             info="During my education, I have gained experience in developing user-friendly web applications with a focus on JavaScript, CSS, and frameworks such as React and Vue.js. The program has also provided me with insights into backend development and agile work using Scrum, enabling me to create responsive and intuitive solutions."
           />
           <Details
-            type="Higher Vocational Education in Front-End Development"
-            time="2024-2026"
-            place="Gothenburg, Västra Götaland"
-            info="During my education, I have gained experience in developing user-friendly web applications with a focus on JavaScript, CSS, and frameworks such as React and Vue.js. The program has also provided me with insights into backend development and agile work using Scrum, enabling me to create responsive and intuitive solutions."
+            type="Higher Vocational Education in Digital Design"
+            time="2022-2024"
+            place="Brobygrafiska, Sunne"
+            info="During the program, I gained knowledge in visual communication, usability, and web development. This included creating user-friendly designs, implementing web technologies, and developing responsive websites. The curriculum also focused on understanding user needs and designing intuitive interfaces to enhance the overall user experience."
           />
           <Details
             type="Higher Vocational Education in Front-End Development"
