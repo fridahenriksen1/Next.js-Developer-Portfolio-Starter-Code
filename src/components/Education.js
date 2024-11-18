@@ -63,8 +63,8 @@ const Education = () => {
           <Details
             type="Higher Secondary Education in Child and Recreation Studies"
             time="2011-2014"
-            place="Gothenburg, Västra Götaland"
-            info="During my education, I have gained experience in developing user-friendly web applications with a focus on JavaScript, CSS, and frameworks such as React and Vue.js. The program has also provided me with insights into backend development and agile work using Scrum, enabling me to create responsive and intuitive solutions."
+            place="Peder Skrivares skola , Varberg"
+            info="During my education, I gained valuable insights into child development, communication, and recreational activities, with a focus on creating supportive and engaging environments for children and young people. The program also emphasized teamwork, leadership, and planning, equipping me with skills to foster creativity and collaboration in various social and educational contexts."
           />
         </ul>
       </div>
