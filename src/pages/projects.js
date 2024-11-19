@@ -118,10 +118,50 @@ const projects = () => {
                 type="Featured Project"
               />
             </div>
-            <div className="col-span-6">Project-2</div>
-            <div className="col-span-12">Featured Project</div>
-            <div className="col-span-6">Project-3</div>
-            <div className="col-span-6">Project-4</div>
+            <div className="col-span-6">
+              {" "}
+              <Project
+                title="Svemestra - App"
+                img={project1}
+                summary="Svemestra is a travel app created as a group project for our final thesis. It helps users discover nature experiences in Sweden with smart mapping and planning tools. Users can vote on destinations, create routes, and plan adventures easily. We designed and coded key features to deliver a seamless, user-friendly experience."
+                link="/"
+                github="/"
+                type="Featured Project"
+              />
+            </div>
+            <div className="col-span-12">
+              {" "}
+              <FeaturedProject
+                title="Svemestra - App"
+                img={project1}
+                summary="Svemestra is a travel app created as a group project for our final thesis. It helps users discover nature experiences in Sweden with smart mapping and planning tools. Users can vote on destinations, create routes, and plan adventures easily. We designed and coded key features to deliver a seamless, user-friendly experience."
+                link="/"
+                github="/"
+                type="Featured Project"
+              />
+            </div>
+            <div className="col-span-6">
+              {" "}
+              <Project
+                title="Svemestra - App"
+                img={project1}
+                summary="Svemestra is a travel app created as a group project for our final thesis. It helps users discover nature experiences in Sweden with smart mapping and planning tools. Users can vote on destinations, create routes, and plan adventures easily. We designed and coded key features to deliver a seamless, user-friendly experience."
+                link="/"
+                github="/"
+                type="Featured Project"
+              />
+            </div>
+            <div className="col-span-6">
+              {" "}
+              <Project
+                title="Svemestra - App"
+                img={project1}
+                summary="Svemestra is a travel app created as a group project for our final thesis. It helps users discover nature experiences in Sweden with smart mapping and planning tools. Users can vote on destinations, create routes, and plan adventures easily. We designed and coded key features to deliver a seamless, user-friendly experience."
+                link="/"
+                github="/"
+                type="Featured Project"
+              />
+            </div>
           </div>
         </Layout>
       </main>
