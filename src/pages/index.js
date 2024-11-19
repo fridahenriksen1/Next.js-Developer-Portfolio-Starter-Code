@@ -40,10 +40,7 @@ export default function Home() {
                 className="!text-6xl !text-left"
               ></AnimatedText>
               <p className="my-4 text-base font-medium">
-                As a skilled full-stack developer, I am dedicated to turning
-                ideas into innovative web applications. Explore my latest
-                projects and articles, showcasing my expertise in React.js and
-                web development.
+              As a passionate Digital Designer with a focus on UX/UI design and frontend development, I am dedicated to creating intuitive and visually engaging digital experiences. Explore my latest projects, showcasing my expertise in user-centric design, web development, and ongoing studies in frontend development.
               </p>
               <div className="flex items-center self-start mt-2">
                 <Link
