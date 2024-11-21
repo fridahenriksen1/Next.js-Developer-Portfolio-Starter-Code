@@ -7,6 +7,7 @@ import Link from "next/link";
 import React from "react";
 import project1 from "../../public/images/projects/svemestra.jpg";
 import project2 from "../../public/images/projects/Nasa.png";
+import project3 from "../../public/images/projects/strawberryCake.png";
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
@@ -20,7 +21,6 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
         <Image src={img} alt={title} className="w-full h-auto" />
       </Link>
       <div className="w-1/2 flex flex-col items-start justify-between pl-6">
-        <span className="text-primary font-medium text-xl">{type}</span>
         <Link
           href={link}
           target="_blank"
@@ -29,6 +29,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
           <h2 className="my-2 w-full text-left text-4xl font-bold">{title}</h2>
         </Link>
         <p className="my-2 font-medium text-dark">{summary}</p>
+        <span className="text-primary font-medium text-l my-2">{type}</span>
         <div className="mt-2 flex items-center">
           <Link href={github} target="_blank" className="w-10">
             <GithubIcon />
@@ -58,14 +59,13 @@ const Project = ({ title, type, img, link, github }) => {
         <Image src={img} alt={title} className="w-full h-auto" />
       </Link>
       <div className="w-full flex flex-col items-start justify-between mt-4">
-        <span className="text-primary font-medium text-xl">{type}</span>
+        <h2 className="my-2 w-full text-left text-3xl font-bold">{title}</h2>
+        <span className="text-primary font-medium text-l my-2">{type}</span>
         <Link
           href={link}
           target="_blank"
           className="hover:underline underline-offset-2"
-        >
-          <h2 className="my-2 w-full text-left text-3xl font-bold">{title}</h2>
-        </Link>
+        ></Link>
 
         <div className="w-full mt-2 flex items-center justify-between">
           <Link
@@ -116,20 +116,20 @@ const projects = () => {
                 title="NASA project"
                 img={project2}
                 summary="Svemestra is a travel app created as a group project for our final thesis. It helps users discover nature experiences in Sweden with smart mapping and planning tools. Users can vote on destinations, create routes, and plan adventures easily. We designed and coded key features to deliver a seamless, user-friendly experience."
-                link="/"
-                github="/"
+                link="https://fridahenriksen.com/nasa/"
+                github="https://github.com/fridahenriksen1/Nasa"
                 type="Powered by NASA's API for Mars Exploration"
               />
             </div>
             <div className="col-span-6">
               {" "}
               <Project
-                title="Svemestra - App"
-                img={project1}
+                title="Easyfood"
+                img={project3}
                 summary="Svemestra is a travel app created as a group project for our final thesis. It helps users discover nature experiences in Sweden with smart mapping and planning tools. Users can vote on destinations, create routes, and plan adventures easily. We designed and coded key features to deliver a seamless, user-friendly experience."
                 link="/"
                 github="/"
-                type="Featured Project"
+                type="Collaborative Code Improvement"
               />
             </div>
             <div className="col-span-12">
