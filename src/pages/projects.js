@@ -5,7 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import project1 from "../../public/images/projects/svemestra.jpg";
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
