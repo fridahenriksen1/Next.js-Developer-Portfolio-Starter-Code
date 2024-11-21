@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import project1 from "../../public/images/projects/svemestra.jpg";
+import project2 from "../../public/images/projects/Nasa.png";
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
@@ -107,17 +108,17 @@ const projects = () => {
                 summary="Svemestra is a travel app created as a group project for our final thesis. It helps users discover nature experiences in Sweden with smart mapping and planning tools. Users can vote on destinations, create routes, and plan adventures easily. We designed and coded key features to deliver a seamless, user-friendly experience."
                 link="https://fridahenriksen.com/examen-dd22-svemestra-main/"
                 github="https://github.com/fridahenriksen1/examen-dd22-svemestra"
-                type="Featured Project"
+                type="My roll: UX-design and Front End Development"
               />
             </div>
             <div className="col-span-6">
               <Project
-                title="Svemestra - App"
-                img={project1}
+                title="NASA project"
+                img={project2}
                 summary="Svemestra is a travel app created as a group project for our final thesis. It helps users discover nature experiences in Sweden with smart mapping and planning tools. Users can vote on destinations, create routes, and plan adventures easily. We designed and coded key features to deliver a seamless, user-friendly experience."
                 link="/"
                 github="/"
-                type="Featured Project"
+                type="Powered by NASA's API for Mars Exploration"
               />
             </div>
             <div className="col-span-6">
