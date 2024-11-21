@@ -127,8 +127,8 @@ const projects = () => {
                 title="Easyfood"
                 img={project3}
                 summary="Svemestra is a travel app created as a group project for our final thesis. It helps users discover nature experiences in Sweden with smart mapping and planning tools. Users can vote on destinations, create routes, and plan adventures easily. We designed and coded key features to deliver a seamless, user-friendly experience."
-                link="/"
-                github="/"
+                link="https://fridahenriksen.com/Easyfood/"
+                github="https://github.com/fridahenriksen1/Easyfood"
                 type="Collaborative Code Improvement"
               />
             </div>
